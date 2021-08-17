@@ -75,10 +75,10 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "format": "prettier --write \"src/**/*.{js,jsx,css,json,md,html,yaml,yml}\"",
-      "lint": "eslint src portals --ext .js,.jsx,.ts,.tsx",
-      "lint:fix": "eslint --fix src portals --ext .js,.jsx,.ts,.tsx"
-      
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json,md,html,yaml,yml}\" package.json",
+    "lint": "eslint src portals --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint --fix src portals --ext .js,.jsx,.ts,.tsx",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
