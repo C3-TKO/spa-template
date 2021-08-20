@@ -157,6 +157,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^13.1.0",
+    "@semantic-release/git": "^9.0.0",
     "commitlint": "^13.1.0",
     "gh-pages": "^3.2.3",
     "husky": "^7.0.1",
