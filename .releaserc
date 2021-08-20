@@ -1,0 +1,3 @@
+{
+    "branches": ["main", "ci/setup-initial-gh-actions"]
+}
