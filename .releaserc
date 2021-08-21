@@ -2,23 +2,15 @@
   "branches": ["main", "ci/setup-initial-gh-actions"],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
-      "preset": "conventionalcommits",
       "releaseRules": [
         { "type": "chore", "release": "patch" },
         { "type": "ci", "release": "patch" },
         { "type": "docs", "release": "patch" },
         { "type": "refactor", "release": "patch" },
         { "type": "style", "release": "patch" }
-      ],
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      }
+      ]
     }],
     ["@semantic-release/release-notes-generator", {
-      "preset": "conventionalcommits",
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      },
       "writerOpts": {
         "commitsSort": ["subject", "scope"]
       }
