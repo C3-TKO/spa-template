@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - ci/setup-initial-gh-actions
+      - main
 
 jobs:
   release:
