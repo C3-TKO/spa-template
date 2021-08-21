@@ -1,5 +1,5 @@
 {
-  "branches": ["main", "ci/setup-initial-gh-actions"],
+  "branches": ["main"],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
